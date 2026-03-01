@@ -1,7 +1,6 @@
 # 5G-SA-Traffic-Classification
 
-This repository provides the research code for **encrypted traffic classification using 5G SA physical-layer channel records**.  
-The key idea is to **convert short PHY log sequences into structured channel feature matrices**, and then learn discriminative representations for traffic behaviors under varying channel conditions. We implement **BiLCNet(BiLSTM-Conformer Network)** to capture both temporal dynamics and spatial dependencies within channel feature matrices. The code also supports **multi-scenario learning** and **LODO** (leave-one-domain-out) evaluation to assess generalization to unseen gain settings.
+This repository provides the research code for **encrypted traffic classification using 5G SA physical-layer channel records**.  The key idea is to **convert short PHY log sequences into structured channel feature matrices**, and then learn discriminative representations for traffic behaviors under varying channel conditions. We implement **BiLCNet(BiLSTM-Conformer Network)** to capture both temporal dynamics and spatial dependencies within channel feature matrices. The code also supports **multi-scenario learning** and **LODO** (leave-one-domain-out) evaluation to assess generalization to unseen gain settings.
 
 ---
 
