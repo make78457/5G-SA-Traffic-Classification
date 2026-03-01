@@ -9,6 +9,7 @@ The key idea is to **convert short PHY log sequences into structured channel fea
 
 - **Privacy-preserving**: classification without payload inspection (PHY-based features).
 - **End-to-end pipeline**: raw log files → processed training samples → model training/evaluation.
+- **Hybrid architecture (BiLCNet)**: combines **BiLSTM + CNN + Transformer** to jointly model temporal dynamics, local spatial patterns, and global dependencies in channel feature matrices.
 - **Generalization evaluation**: LODO setting across **unseen gain domains**.
 
 ---
@@ -25,7 +26,7 @@ The key idea is to **convert short PHY log sequences into structured channel fea
 
 ---
 
-## Repository Structure (Current)
+## Repository Structure
 
 - `Data_preprocess.ipynb` : preprocessing pipeline (raw logs → processed dataset)
 - `BiLCNet.ipynb` : training + evaluation (multi-scenario + LODO)
