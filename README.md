@@ -26,7 +26,7 @@ The code is organized around two main stages: data preprocessing and model train
 The main model used in the experiments is instantiated as follows:
 
 ```python
-net7 = BiLCNet(
+net = BiLCNet(
     input_dim=203,
     hidden_dim=64,
     lstm_layers=2,
@@ -85,6 +85,3 @@ Additional training settings used in `BiLCNet.ipynb` include:
 
 The dataset is not included in this repository because of its size and data-sharing constraints. For research or reproducibility inquiries, please contact the authors.
 
-## Notes
-
-This repository is intended to support the associated research work. The code is provided for experimental reproducibility and further academic use.
